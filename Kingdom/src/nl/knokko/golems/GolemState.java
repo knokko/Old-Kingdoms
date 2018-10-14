@@ -1,0 +1,15 @@
+package nl.knokko.golems;
+
+
+public enum GolemState {
+
+	FREE,
+	PASSIVE,
+	PROTECTING,
+	ASSISTING,
+	ATTACKING,
+	ATTACK_MONSTERS,
+	ATTACK_PLAYERS,
+	ATTACK_MONSTERS_AND_PLAYERS;
+	
+}

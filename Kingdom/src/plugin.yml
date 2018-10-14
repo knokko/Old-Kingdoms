@@ -1,0 +1,16 @@
+name: KingdomWars
+main: nl.knokko.main.KingdomPlugin
+version: 4.0
+commands:
+  kingdom:
+    description: The kingdom command.
+    useage: /kingdom join/invites/create/leave/invite/list/color/remove/options/kick/promote/ demote/setspawn/spawn/help
+  claim:
+    description: Adds the claim tool to the inventory of the user.
+    useage: /claim
+  war:
+    description: Declare wars to another kingdoms.
+    Useage: /war declare/cancel/attack/list/attacks/help [another kingdom]
+  golems:
+    description: Use this command to control the golems of your kingdom.
+    Useage: /golems enable/disable/call/recall (iron/snow)
